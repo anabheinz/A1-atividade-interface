@@ -1,0 +1,1221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    height: 100vh;
+} */
+
+/* main{
+    position: absolute;
+} */
+
+#container-total{
+    display: flex;
+    flex-direction: column;
+}
+
+/* -------------------------------- menu ---------------------------------------------------------- */
+
+
+#menu nav {
+    display:flex;
+    align-items:center;
+    background-color: #FFF8DF;
+    padding: 20px 50px;
+
+}
+
+#menu nav ul{
+    display: flex;
+    align-items:center;
+    list-style: none;
+    margin-left: auto;
+}
+
+
+#menu nav ul li a{
+    font-family: "Kiwi Maru", serif;
+    font-weight: 950;
+    font-style: normal;
+    font-size: 18px;
+    color: black;
+    padding: 2px 50px;
+}
+
+
+
+.menu-imagens{
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    gap: 30px;
+
+}
+
+.menu-sisfogo-titulo{
+    font-family: "Khand", sans-serif;
+    font-weight: 500;
+    font-style: regular;
+    font-size: 30px;
+    /* display: flex;
+    align-items: center;
+    margin-right: 1215px; */
+}
+
+
+#menu nav ul li a:hover{
+    font-family: "Kiwi Maru", serif;
+    font-weight: 950;
+    font-style: normal;
+    color: #A3C8A0;
+    padding: 2px 50px;
+    display: inline-block;
+}
+
+#menu nav ul button{
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 23px;
+    color: black;
+    background-color: #A3C8A0;opacity: 0.9;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 0px;
+    padding: 10px 60px;
+    cursor: pointer;
+    /* box-shadow: 2px 2px 2px grey; */
+    white-space: nowrap;
+}
+
+#menu nav ul button:hover{
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 23px;
+    color: black;
+    background-color:#517E39;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 0px;
+    padding: 10px 60x;
+    cursor: pointer;
+}
+
+/* -------------------------------- sisfogo container ---------------------------------------------------------- */
+
+#sisfogo-container {
+    display: flex;
+    position: relative;
+    width: 100%;  
+    height: 1013px;   
+}
+
+
+#sisfogo-container img{
+    margin: 0;
+    width: 100%;  
+    height: auto;
+    display: block;
+    object-fit: cover;
+    object-position: center;  
+}
+
+
+.sisfogo-titulo{
+    font-family: "Khand", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 160px;
+    position: absolute;
+    top: 15%;
+    right: 77.5%;
+    transform: translateX(71%);
+    color: white;
+    text-shadow: 0px 0px 0px black;
+ }
+
+ .sisfogo-subtitulo{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    top: 40%; 
+    right: 58.5%;
+    transform: translateX(20%);
+    color: white;
+    text-shadow: 3px 3px 3px black;
+ }
+
+.button-saibaMais{
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px 80px;
+    cursor: pointer;
+    white-space: nowrap;
+    color: black;
+    position: absolute;
+    top: 55%;
+    left: 19%;
+}
+
+/* ------------------------------- monitoramento -------------------------------------- */
+
+#monitoramento {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 500px 10px 20px 20px;
+    background-color: #FFF8DF;
+}
+
+#monitoramento h1 {
+    position: absolute;
+    font-size: 20px;
+    top: -50px;
+    right: px;
+    color: black;
+    text-shadow: 0px 0px 0px black;
+}
+
+/* ---------------------------- temas ---------------------------------------- */
+
+#body-temas{
+    width: 100%;
+    height: 100%;
+    background-color: #f4e9c1
+}
+
+#monitoramento-analise-container{
+    display: flex;
+    padding: 50px 50px;
+    background-color: #FFF8DF;
+    margin-left: auto;
+}
+
+.monitoramento-analise-img{
+    display: flex;
+    height: 510px;
+    width: 822px;
+    border-radius: 50px;
+
+}
+
+#monitoramento-analise-texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+
+}
+
+.monitoramento-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 974px;
+    height: 91px;
+    top: 13.60%;
+    right: -8%;
+}
+
+.monitoramento-subtitulo{
+    display: flex;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    width: 906px;
+    height: 261px;
+    top: 20%;
+    right: -10%;
+}
+
+.button-acessoMonitoramento{
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 23px;
+    background-color: #FEDA01;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    top: 5%;
+    right: -50%;
+    padding: 10px 50px;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+
+
+#ciman-container{
+    display: flex;
+    padding: 50px 50px;
+    background-color: #DFCC8B;
+    margin-left: auto;
+}
+
+.ciman-img{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    height: 510px;
+    width: 822px;
+    border-radius: 50px;
+    right:-1100px;
+    top: 3px;
+}
+
+#ciman-texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.ciman-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 974px;
+    height: 91px;
+    top: 13.60%;
+    right: 85%;
+}
+
+.ciman-subtitulo{
+    display: flex;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    width: 906px;
+    height: 261px;
+    top: 25%;
+    right: 81%;
+}
+
+.button-acessoCIMAN{
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 23px;
+    background-color: #FEDA01;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    top: 5%;
+    right: 43%;
+    padding: 10px 50px;
+}
+
+
+/* ----------------------------------------------------------------------- */
+
+
+#ambiente-planejamento-container{
+    display: flex;
+    padding: 50px 50px;
+    background-color: #FFF8DF;
+    margin-left: auto;
+}
+
+.ambiente-planejamento-img{
+    display: flex;
+    height: 510px;
+    width: 822px;
+    border-radius: 50px;
+
+}
+
+#ambiente-planejamento-texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+
+}
+
+.ambiente-planejamento-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 974px;
+    height: 91px;
+    top: 13.60%;
+    right: -8%;
+}
+
+.ambiente-planejamento-subtitulo{
+    display: flex;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    width: 906px;
+    height: 261px;
+    top: 23%;
+    right: -10%;
+}
+
+.button-acessoAmbientePlanejamento{
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 23px;
+    background-color: #FEDA01;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    top: 150%;
+    right: -50%;
+    padding: 10px 50px;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+#estrategias-container, #protecao-container, #trab-brigadistas-container {
+    display: flex;
+    padding: 50px 50px;
+    background-color: #DFCC8B;
+    margin-left: auto;
+}
+
+.estrategias-video, .protecao-video, .trab-brigadistas-video{
+    display: flex;
+    position: relative;
+    right:-1100px;
+    top: 3px;
+}
+
+#estrategias-texto, #protecao-texto, #trab-brigadistas-texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.estrategias-titulo, .protecao-titulo, .trab-brigadistas-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 974px;
+    height: 91px;
+    top: 13.60%;
+    right: 85%;
+}
+
+.estrategias-subtitulo, .protecao-subtitulo, .trab-brigadistas-subtitulo{
+    display: flex;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    width: 906px;
+    height: 261px;
+    top: 20%;
+    right: 81%;
+}
+
+.button-acessoEstrategias{
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 23px;
+    background-color: #FEDA01;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    top: 5%;
+    right: 45%;
+    padding: 10px 50px;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+#ambiente-executado-container{
+    display: flex;
+    padding: 50px 50px;
+    background-color: #DFCC8B;
+    margin-left: auto;
+}
+
+.ambiente-executado-img{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    height: 510px;
+    width: 822px;
+    border-radius: 50px;
+    right:-1100px;
+    top: 3px;
+}
+
+#ambiente-executado-texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.ambiente-executado-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 974px;
+    height: 91px;
+    top: 13.60%;
+    right: 85%;
+}
+
+.ambiente-executado-subtitulo{
+    display: flex;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    width: 906px;
+    height: 261px;
+    top: 25%;
+    right: 81%;
+}
+
+.button-acesso-Ambiente-Executado{
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 23px;
+    background-color: #FEDA01;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    top: 150%;
+    right: 43%;
+    padding: 10px 50px;
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+#formacao-container{
+    display: flex;
+    padding: 50px 50px;
+    background-color: #f4e9c1;
+    margin-left: auto;
+}
+
+.formacao-video{
+    display: flex;
+    position: relative;
+    right:-1100px;
+    top: 3px;
+}
+
+#formacao-texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.formacao-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 974px;
+    height: 91px;
+    top: 13.60%;
+    right: 85%;
+}
+
+.formacao-subtitulo{
+    display: flex;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    width: 906px;
+    height: 261px;
+    top: 20%;
+    right: 81%;
+}
+
+/* ---------------------------------- sobre ----------------------------------- */
+
+
+#body-sobre{
+    width: 100%;
+    height: 100%;
+}
+
+#sobre-container{
+    display: flex;
+    padding: 50px 20px;
+    background-color: #f4e9c1;
+    margin-left: auto;
+
+}
+
+#sobre-texto{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.sobre-img{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    height: 610px;
+    width: 922px;
+    border-radius: 50px;
+    right:-80px;
+    top: 3px;
+}
+
+.sobre-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 974px;
+    height: 91px;
+    top: 5%;
+    right: -10%;
+}
+
+.sobre-subtitulo{
+    display: flex;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    width: 906px;
+    height: 161px;
+    top: 7%;
+    right: -10%;
+}
+
+
+.sobre-lista{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    list-style-type: upper-roman;
+    width: 806px;
+    height: 161px;
+    top: 70px;
+    right: -10%;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+
+#sobre-governanca-lei-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.governanca{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 2 - 1px);
+    height: 1100px;
+    background-color: #f4e9c1;
+}
+
+
+.sobre-governanca-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 97px;
+    height: 91px;
+    top: 5%;
+    right: -43%;
+}
+
+
+.sobre-governanca-subtitulo{
+    display: flex;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    width: 906px;
+    height: 261px;
+    top: 8%;
+    right: -6%;
+}
+
+.sobre-governanca-lista{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    list-style-type: upper-roman;
+    width: 806px;
+    height: 161px;
+    top: -15px;
+    right: -10%;
+}
+
+
+
+
+.lei{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 2 - 1px);
+    background-color: #f4e9c1;
+    height: 1100px;
+}
+
+.sobre-lei-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    width: 500px;
+    height: 91px;
+    top: 6%;
+    right: -30%;
+}
+
+.sobre-lei-subtitulo{
+    display: flex;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    width: 906px;
+    height: 261px;
+    top: 7%;
+    right: -6%;
+}
+
+.sobre-lei-lista{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    list-style-type: upper-roman;
+    width: 806px;
+    height: 161px;
+    top: 90px;
+    right: -10%;
+}
+
+.sobre-lei-img{
+    display: flex;
+    border-radius: 50px;
+    margin-top: 60px;
+    margin-left: 170px;
+
+}
+
+/* --------------------- contato ------------------------- */
+
+
+#body-contato, .body-acesso_interno{
+    width: 100%;
+    height: 100%;
+}
+
+#contato-container{
+    display: flex;
+    padding: 50px 20px;
+    background-color: #f4e9c1;
+    margin-left: auto;
+
+}
+
+#contato-texto{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.contato-img{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    height: 610px;
+    width: 922px;
+    border-radius: 50px;
+    right:-80px;
+    top: 3px;
+}
+
+.contato-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 974px;
+    height: 91px;
+    top: 5%;
+    right: -10%;
+}
+
+.contato-subtitulo{
+    display: flex;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+    width: 906px;
+    height: 161px;
+    top: 7%;
+    right: -10%;
+}
+
+
+.contato-lista{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    list-style-type: square;
+    width: 806px;
+    height: 161px;
+    top: 70px;
+    right: -10%;
+}
+
+/* --------------------- acesso interno ------------------------- */
+
+#login-usuario-container{
+    display: flex;
+    padding: 100px 50px;
+    background-color: #FFF8DF;
+    display: flex;
+    justify-content: center;
+}
+
+#login-usuario-container a{
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.login-usuario-texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    top: 13.60%;
+    right: -20%;
+}
+
+.login-usuario-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 474px;
+    height: 91px;
+    top: -5%;
+    right: 1%;
+}
+
+#login-usuario{
+    background-color: #f4e9c1;
+    padding: 50px;
+    padding-bottom: 120px;
+    border: grey solid 1px;
+    border-radius: 50px;
+    display: flex;
+    position: relative;
+    top: -7%;
+    width: 1100px;
+    height: 290px;
+}
+
+
+#login-usuario form p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    margin-bottom: 30px;
+
+}
+
+#login-usuario form p input{
+    font-size: 30px;
+    padding: 15px 350px;
+    display: flex;
+    border-radius: 80px;
+    border: solid 0px;
+}
+
+.esqueceu-senha{
+    display: flex;
+    position: relative;
+    top: 105%;
+    right: 1070px;
+    font-size: 15px;
+    white-space: nowrap;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.cadastro{
+    display: flex;
+    position: relative;
+    top: 114%;
+    right: 1199px;
+    font-size: 15px;
+    white-space: nowrap;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.button-login-usuario{
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 27px;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    top: 100%;
+    right: 555px;
+    padding: 10px 50px;
+    white-space: nowrap;
+}
+
+/* ------------------ aba parceiros ----------------- */
+
+#imagens-parceiros-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px;
+    background-color: #FFF8DF;
+}
+
+
+.imagens-parceiros{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+#imagens-parceiros-texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+
+}
+
+.imagens-parceiros-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    top: -90px;
+    right: -100px;
+}
+
+
+
+/* ------------------------------------ rodape ----------------------------------------- */
+
+
+.rodape {
+    background-color: #FFF8DF;
+    color: black;
+    height: auto;
+    width: 100%;
+    font-size: 20px;
+    font-family: "Markazi Text", serif;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: black;
+}
+
+.rodape p {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.rodape-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    align-items:stretch;
+    padding: 20px 10px 40px 10px;
+    justify-content: center;
+}
+
+.rodape-div-2, .rodape-div-3, .rodape-div-4 {
+    display: flex;
+    width: calc(100% / 4 - 150px);
+    padding: 1px;
+    margin-left: 60px;
+}
+
+.rodape-direitos {
+    width: calc(100% - 20px);
+    background-color: #f4e9c1;
+    padding: 8px;
+    text-align: center;
+    margin: 0px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.icones{
+    margin-right: 10px;
+}
+
+.titulos-rodape{
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* --------------- formulario -------------- */
+
+#formulario-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    background-color: #f4e9c1;
+    margin-left: auto;
+    justify-content: center;
+}
+
+#formulario{
+    padding: 12px;
+    border-radius: 20px;
+
+}
+
+#formulario form p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+#formulario form p select {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: #FFF8DF
+
+}
+
+#formulario form p input, #formulario form p select option{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 5px 70px;
+    border: solid 1px;
+    background-color: #FFF8DF;
+}
+
+
+#login{
+    border: grey solid 1px;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding:40px;	
+}
+
+#login fieldset{
+    border: none;
+    margin-bottom: 20px;
+}
+
+#login fieldset legend{
+    font-size: 20px;
+    padding: 5px 70px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#login fieldset legend label{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 5px;
+
+}
+
+#login fieldset label input{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    padding: 5px 100px;
+    border-radius: 5px;
+    border: solid 1px;
+    background-color: #FFF8DF;;
+}
+
+#buttons button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    background-color: #FFF8DF;
+    border-radius: 20px;
+    border: solid 1px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.cadastro-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 474px;
+    height: 91px;
+    top: -5%;
+    right: 7%;
+}

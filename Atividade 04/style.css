@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    height: 100vh;
+} */
+
+/* main{
+    position: absolute;
+} */
+
+#container-total{
+    display: flex;
+    flex-direction: column;
+}
+
+/* -------------------------------- menu ---------------------------------------------------------- */
+
+
+#menu nav {
+    display:flex;
+    align-items:center;
+    background-color: #FFF8DF;
+    padding: 20px 50px;
+
+}
+
+#menu nav ul{
+    display: flex;
+    align-items:center;
+    list-style: none;
+    margin-left: auto;
+}
+
+
+#menu nav ul li a{
+    font-family: "Kiwi Maru", serif;
+    font-weight: 950;
+    font-style: normal;
+    font-size: 18px;
+    color: black;
+    padding: 2px 50px;
+}
+
+
+
+.menu-imagens{
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    gap: 30px;
+
+}
+
+.menu-sisfogo-titulo{
+    font-family: "Khand", sans-serif;
+    font-weight: 500;
+    font-style: regular;
+    font-size: 30px;
+    /* display: flex;
+    align-items: center;
+    margin-right: 1215px; */
+}
+
+
+#menu nav ul li a:hover{
+    font-family: "Kiwi Maru", serif;
+    font-weight: 950;
+    font-style: normal;
+    color: #A3C8A0;
+    padding: 2px 50px;
+    display: inline-block;
+}
+
+#menu nav ul button{
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 23px;
+    color: black;
+    background-color: #A3C8A0;opacity: 0.9;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 0px;
+    padding: 10px 60px;
+    cursor: pointer;
+    /* box-shadow: 2px 2px 2px grey; */
+    white-space: nowrap;
+}
+
+#menu nav ul button:hover{
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 23px;
+    color: black;
+    background-color:#517E39;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 0px;
+    padding: 10px 60x;
+    cursor: pointer;
+}
+
+/* -------------------------------- sisfogo container ---------------------------------------------------------- */
+
+#sisfogo-container {
+    display: flex;
+    position: relative;
+    width: 100%;  
+    height: 1013px;   
+}
+
+
+#sisfogo-container img{
+    margin: 0;
+    width: 100%;  
+    height: auto;
+    display: block;
+    object-fit: cover;
+    object-position: center;  
+}
+
+
+.sisfogo-titulo{
+    font-family: "Khand", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 160px;
+    position: absolute;
+    top: 15%;
+    right: 77.5%;
+    transform: translateX(71%);
+    color: white;
+    text-shadow: 0px 0px 0px black;
+ }
+
+ .sisfogo-subtitulo{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    top: 40%; 
+    right: 58.5%;
+    transform: translateX(20%);
+    color: white;
+    text-shadow: 3px 3px 3px black;
+ }
+
+.button-saibaMais{
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px 80px;
+    cursor: pointer;
+    white-space: nowrap;
+    color: black;
+    position: absolute;
+    top: 55%;
+    left: 19%;
+}
+
+/* ------------------------------- monitoramento -------------------------------------- */
+
+#monitoramento {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 500px 10px 20px 20px;
+    background-color: #FFF8DF;
+}
+
+#monitoramento h1 {
+    position: absolute;
+    font-size: 20px;
+    top: -50px;
+    right: px;
+    color: black;
+    text-shadow: 0px 0px 0px black;
+}
+
+/* ---------------------------- temas ---------------------------------------- */
+
+#body-temas{
+    width: 100%;
+    height: 100%;
+    background-color: #fcebac;
+}
+
+#monitoramento-analise-container{
+    display: flex;
+    padding: 50px 50px;
+    background-color: rgb(221, 197, 167);
+    margin-left: auto;
+}
+
+.monitoramento-analise-img{
+    display: flex;
+    height: 510px;
+    width: 822px;
+    border-radius: 50px;
+    right: 108px;
+    top: 114px;
+}
+
+#monitoramento-analise-texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    top: 13.60%;
+    right: -20%;
+}
+
+.monitoramento-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 974px;
+    height: 91px;
+    top: 13.60%;
+    right: -20%;
+}
+
+.monitoramento-subtitulo{
+    display: flex;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    width: 906px;
+    height: 261px;
+    top: 20%;
+    right: -24%;
+}
+
+.button-acessoMonitoramento{
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 23px;
+    background-color: #FEDA01;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    top: 100%;
+    right: -65%;
+    padding: 10px 50px;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+
+
+#ciman-container{
+    display: flex;
+    padding: 50px 50px;
+    background-color: #fcebac;
+    margin-left: auto;
+}
+
+.ciman-img{
+    display: flex;
+    height: 510px;
+    width: 822px;
+    border-radius: 50px;
+    right: 108px;
+    top: 114px;
+}
+
+#ciman-texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    top: 13.60%;
+    right: -20%;
+}
+
+.ciman-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 974px;
+    height: 91px;
+    top: 13.60%;
+    right: -20%;
+}
+
+.ciman-subtitulo{
+    display: flex;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    width: 906px;
+    height: 261px;
+    top: 20%;
+    right: -24%;
+}
+
+.button-acessoCIMAN{
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 23px;
+    background-color: #FEDA01;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    top: 100%;
+    right: -65%;
+    padding: 10px 50px;
+}
+
+/* ---------------------------------- sobre ----------------------------------- */
+
+
+#body-sobre{
+    width: 100%;
+    height: 100%;
+    background-color: #A3C8A0;
+}
+
+#sobre-container{
+    display: flex;
+    padding: 100px 50px;
+    background-color: rgb(221, 197, 167);
+    margin-left: auto;
+}
+
+#sobre-texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    top: 13.60%;
+    right: -20%;
+}
+
+.sobre-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 974px;
+    height: 91px;
+    top: -5%;
+    right: -45%;
+}
+
+.sobre-subtitulo{
+    display: flex;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    width: 906px;
+    height: 261px;
+    top: 1%;
+    right: -50%;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+
+#sobre-container-governanca{
+    display: flex;
+    padding: 250px 50px;
+    background-color: rgb(255, 220, 178);
+    margin-left: auto;
+}
+
+
+#sobre-governanca-texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    top: 13.60%;
+    right: -20%;
+}
+
+.sobre-governanca-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 974px;
+    height: 91px;
+    top: -50%;
+    right: -45%;
+}
+
+.sobre-governanca-subtitulo{
+    display: flex;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    width: 906px;
+    height: 261px;
+    top: -40%;
+    right: -50%;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+#sobre-container-lei{
+    display: flex;
+    padding: 150px 50px;
+    background-color: rgb(221, 197, 167);
+    margin-left: auto;
+}
+
+
+#sobre-lei-texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    top: 13.60%;
+    right: -20%;
+}
+
+.sobre-lei-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 974px;
+    height: 91px;
+    top: -20%;
+    right: -45%;
+}
+
+.sobre-lei-subtitulo{
+    display: flex;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    width: 906px;
+    height: 261px;
+    top: -10%;
+    right: -50%;
+}
+
+
+/* --------------------- contato ------------------------- */
+
+#body-contato{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 220, 178);
+}
+
+#contato-container{
+    display: flex;
+    padding: 100px 50px;
+    background-color: rgb(255, 220, 178);
+    margin-left: auto;
+}
+
+.contato-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 974px;
+    height: 91px;
+    top: -5%;
+    right: -45%;
+}
+
+.contato-subtitulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 300;
+    font-style: bold;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 974px;
+    height: 91px;
+    top: -5%;
+    right: -45%;
+}
+
+/* --------------------- acesso interno ------------------------- */
+
+#formulario-container{
+    display: flex;
+    padding: 100px 50px;
+    background-color: rgb(255, 220, 178);
+    margin-left: auto;
+}
+
+#formulario-texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    top: 13.60%;
+    right: -20%;
+}
+
+#formulario{
+    background-color: hsl(33, 81%, 61%);
+    padding: 100px 70px;
+    border: grey solid 1px;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    top: 20%;
+    right: -30%;
+
+}
+
+.formulario-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 974px;
+    height: 91px;
+    top: -5%;
+    right: -38%;
+}
+
+#formulario form p {
+    font-family: "Khand", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+
+#formulario form p input{
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 15px 350px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.button-formulario{
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 27px;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    top: 100%;
+    right: -73%;
+    padding: 10px 50px;
+}

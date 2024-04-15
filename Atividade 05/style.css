@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container-total{
+    display: flex;
+    flex-direction: column;
+}
+
+/* -------------------------------- menu ---------------------------------------------------------- */
+
+
+#menu nav {
+    display:flex;
+    align-items:center;
+    background-color: #FFF8DF;
+    padding: 20px 50px;
+
+}
+
+#menu nav ul{
+    display: flex;
+    align-items:center;
+    list-style: none;
+    margin-left: auto;
+}
+
+
+#menu nav ul li a{
+    font-family: "Kiwi Maru", serif;
+    font-weight: 950;
+    font-style: normal;
+    font-size: 18px;
+    color: black;
+    padding: 2px 50px;
+}
+
+
+
+.menu-imagens{
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    gap: 30px;
+
+}
+
+.menu-sisfogo-titulo{
+    font-family: "Khand", sans-serif;
+    font-weight: 500;
+    font-style: regular;
+    font-size: 30px;
+    /* display: flex;
+    align-items: center;
+    margin-right: 1215px; */
+}
+
+
+#menu nav ul li a:hover{
+    font-family: "Kiwi Maru", serif;
+    font-weight: 950;
+    font-style: normal;
+    color: #A3C8A0;
+    padding: 2px 50px;
+    display: inline-block;
+}
+
+#menu nav ul button{
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 23px;
+    color: black;
+    background-color: #A3C8A0;opacity: 0.9;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 0px;
+    padding: 10px 60px;
+    cursor: pointer;
+
+    white-space: nowrap;
+}
+
+#menu nav ul button:hover{
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 23px;
+    color: black;
+    background-color:#517E39;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 0px;
+    padding: 10px 60x;
+    cursor: pointer;
+}
+
+/* -------------------------------- sisfogo container ---------------------------------------------------------- */
+
+#sisfogo-container {
+    display: flex;
+    position: relative;
+    width: 100%;  
+    height: 1013px;   
+}
+
+
+#sisfogo-container img{
+    margin: 0;
+    width: 100%;  
+    height: auto;
+    display: block;
+    object-fit: cover;
+    object-position: center;  
+}
+
+
+.sisfogo-titulo{
+    font-family: "Khand", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 160px;
+    position: absolute;
+    top: 15%;
+    right: 77.5%;
+    transform: translateX(71%);
+    color: white;
+ }
+
+ .sisfogo-subtitulo{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    top: 40%; 
+    right: 58.5%;
+    transform: translateX(20%);
+    color: white;
+    text-shadow: 3px 3px 3px black;
+ }
+
+.button-saibaMais{
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px 80px;
+    cursor: pointer;
+    white-space: nowrap;
+    color: black;
+    position: absolute;
+    top: 55%;
+    left: 19%;
+}
+
+
+#body-sobre{
+    width: 100%;
+    height: 100%;
+    background-color: #A3C8A0;
+}
+
+#sobre-container{
+    display: flex;
+    padding: 100px 50px;
+    background-color: rgb(221, 197, 167);
+    margin-left: auto;
+}
+
+#sobre-texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    top: 13.60%;
+    right: -20%;
+}
+
+.sobre-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 974px;
+    height: 91px;
+    top: -5%;
+    right: -45%;
+}
+
+.sobre-subtitulo{
+    display: flex;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    width: 906px;
+    height: 261px;
+    top: 1%;
+    right: -50%;
+}
+
+#sobre-container-lei{
+    display: flex;
+    padding: 150px 50px;
+    background-color: rgb(221, 197, 167);
+    margin-left: auto;
+}
+
+
+#sobre-lei-texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    top: 13.60%;
+    right: -20%;
+}
+
+.sobre-lei-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 974px;
+    height: 91px;
+    top: -20%;
+    right: -45%;
+}
+
+.sobre-lei-subtitulo{
+    display: flex;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    width: 906px;
+    height: 261px;
+    top: -10%;
+    right: -50%;
+}
+
+#sobre-container-governanca{
+    display: flex;
+    padding: 250px 50px;
+    background-color: rgb(255, 220, 178);
+    margin-left: auto;
+}
+
+
+#sobre-governanca-texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    top: 13.60%;
+    right: -20%;
+}
+
+.sobre-governanca-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 974px;
+    height: 91px;
+    top: -50%;
+    right: -45%;
+}
+
+.sobre-governanca-subtitulo{
+    display: flex;
+    position: relative;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    width: 906px;
+    height: 261px;
+    top: -40%;
+    right: -50%;
+}
+
+
+
+/* --------------------- contato ------------------------- */
+
+#body-contato{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 220, 178);
+}
+
+#contato-container{
+    display: flex;
+    padding: 100px 50px;
+    background-color: rgb(255, 220, 178);
+    margin-left: auto;
+}
+
+.contato-titulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 974px;
+    height: 91px;
+    top: -5%;
+    right: -45%;
+}
+
+.contato-subtitulo{
+    display: flex;
+    position: relative;
+    font-family: "Khand", sans-serif;
+    font-weight: 300;
+    font-style: bold;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 974px;
+    height: 91px;
+    top: -5%;
+    right: -45%;
+}
+
+
+/* ---------- rodapé ------------ */
+
+.rodape {
+    background-color: #FFF8DF;
+    color: black;
+    height: auto;
+    width: 100%;
+    font-size: 20px;
+    font-family: "Markazi Text", serif;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: black;
+}
+
+.rodape p {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.rodape-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    align-items:stretch;
+    padding: 20px 10px 40px 10px;
+    justify-content: center;
+}
+
+.rodape-div-2, .rodape-div-3, .rodape-div-4 {
+    display: flex;
+    width: calc(100% / 4 - 150px);
+    padding: 1px;
+    margin-left: 60px;
+}
+
+.rodape-direitos {
+    width: calc(100% - 20px);
+    background-color: black;
+    padding: 8px;
+    text-align: center;
+    margin: 0px;
+    color: white;
+}
+
+.icones{
+    margin-right: 10px;
+}
+
+.titulos-rodape{
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}

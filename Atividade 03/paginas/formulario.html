@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css"/>
+    <title>Cadastro</title>
+</head>
+<body>
+
+<h2 class="h2_pagina1">Cadastro de Usuário para acesso ao Sistema de Geoprocessamento</h2>
+
+<div id="formulario">
+<form method="post" action="">
+    <p>Nome: <input type="text" name="name"/></p>
+    <p>Sobrenome: <input type="text" name="last_name" /></p>
+    <p>CPF: <input type="text" name="cpf" maxlength="11"/></p>
+    <p>RG: <input type="text" name="identidade" maxlength="7"/></p>
+    <p>Órgão Emissor: <input type="text" name="org_emissor"/></p>
+    <p>Data da emissão: <input type="date" name="data_emissao_rg"/></p>
+    <p>Naturalidade:     
+        <select>
+        <option></option>
+        <option value="AC">AC</option>
+        <option value="AM">AM</option>
+        <option value="AL">AL</option>
+        <option value="AP">AP</option>
+        <option value="BA">BA</option>
+        <option value="CE">CE</option>
+        <option value="DF">DF</option>
+        <option value="ES">ES</option>
+        <option value="GO">GO</option>
+        <option value="MA">MA</option>
+        <option value="MG">MG</option>
+        <option value="MS">MS</option>
+        <option value="MT">MT</option>
+        <option value="PA">PA</option>
+        <option value="PB">PB</option>
+        <option value="PE">PE</option>
+        <option value="PI">PI</option>
+        <option value="PR">PR</option>        
+        <option value="RJ">RJ</option>
+        <option value="RN">RN</option>        
+        <option value="RO">RO</option>
+        <option value="RR">RR</option>
+        <option value="RS">RS</option>
+        <option value="SE">SE</option>
+        <option value="SC">SC</option>
+        <option value="SP">SP</option>
+        <option value="TO">TO</option>
+    </select></p>
+
+    <p>Município: <input type="text" name="municipio"/></p>
+    <p>Endereço: <input type="text" name="endereco"/></p>
+    <p>CEP: <input type="text" name="cep" maxlength="9"/></p>
+
+    <p>Data de Nascimento: <input type="date" name="data_nascimento"/></p>
+    <p> Gênero:
+        <input type="radio" name="genero" value="1"/> Feminimo
+        <input type="radio" name="genero" value="2"/> Masculino
+        <input type="radio" name="genero" value="3"/> Não-Binário
+        <input type="radio" name="genero" value="3"/> Outro
+    </p>
+    <p>Profissão: <input type="text" name="profissao"/></p>
+    <p>Escolaridade:     
+        <select>
+        <option></option>
+        <option value="es_incompleto">Ensino Fundamental Incompleto</option>
+        <option value="es_completo">Ensino Fundamental Completo</option>
+        <option value="em_incompleto">Ensino Médio Incompleto</option>
+        <option value="em_completo">Ensino Médio Completo</option>
+        <option value="sup_incompleto">Superior Incompleto</option>
+        <option value="sup_completo">Superior Completo</option>
+        <option value="pos_incompleta">Pós-graduação incompleta</option>
+        <option value="pos_completa">Pós-graduação Completa</option>
+    </select></p>
+    <p>Telefone: <input type="telefone" name="telefone" placeholder="(00)00000-0000" maxlength="14"/></p>
+    <br />
+</div>
+
+<div id="login">
+    <fieldset>
+        <legend>Login de Acesso</legend>
+        <br />
+        <label>Email: <input type="text" name="email"/></label>
+        <br />
+        <br />
+        <label>Senha: <input type="password" name="senha" /></label>
+        <sub>Deve conter de 6 a 8 caracteres, combinando caracteres especiais (@, #, !), letras maiúsculas e números. </sub>
+        <br />
+        <br />
+        <p>
+            <input type="checkbox" name="termos"/>
+            Concordo em receber novidades do sistema pelo email cadastrado
+        </p>
+        
+    </fieldset>
+</div>
+<br />
+
+</form>
+
+<div id="buttons">
+<button>Reset</button>
+<button>Finalizar Cadastro</button>
+</div>
+
+
+
+</body>
+</html>
+
+

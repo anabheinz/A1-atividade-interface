@@ -1,0 +1,115 @@
+/* Primeiros Passos */
+* {
+    margin: auto;
+    padding: 10px;
+   
+}
+
+body { 
+    background-color: #FFF8DF;
+    text-align: left;
+
+}
+
+h1 {
+    background-color: #f8d5a8;
+    padding: 12px 20px;
+    border: black solid 1px;
+    border-radius: 20px;
+    text-align: center;
+    color:black;
+}
+
+#menu{
+    text-align: center;
+}
+#menu a{
+    color:black;
+    text-decoration: none;
+}
+
+#menu button{
+    background-color: #ffc881;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#paragrafos{
+    background-color: #f8d5a8;
+    padding: 12px 20px;
+    border: black solid 1px;
+    border-radius: 20px;
+    text-align: center;
+    color:black;
+}
+
+
+/* --------------- pagina 1 -------------- */
+
+.h2_pagina1 {
+    background-color: #ffc881;
+    padding: 12px 20px;
+    border: black solid 1px;
+    border-radius: 20px;
+    text-align: center;
+    color:black;
+    margin-bottom: 10px;
+}
+
+#formulario{
+    padding: 12px;
+    border: grey solid 1px;
+    border-radius: 20px;
+
+}
+
+#formulario form p {
+    font-size: 20px;
+
+}
+
+#formulario form p input{
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px 70px;
+}
+
+
+#login{
+    border: grey solid 1px;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding:16px;	
+}
+
+#login fieldset{
+    border: none;
+    margin-bottom: 20px;
+}
+
+#login fieldset legend{
+    font-size: 20px;
+    padding: 5px 70px;
+}
+
+#login fieldset legend label{
+    font-size: 5px;
+
+}
+
+#login fieldset label input{
+    font-size: 15px;
+    padding: 5px 100px;
+    border-radius: 5px;
+}
+
+#buttons button {
+    background-color: #ffc881;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+

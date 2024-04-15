@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&family=Kiwi+Maru:wght@500&family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+    <title>Sisfogo - Cadastro</title>
+</head>
+
+<body id="body-acesso_interno">
+
+        <div id="menu">
+            <nav>
+                    <div class="menu-imagens">
+                        <img id="ibama-logo" src="../imagens/ibama.png" title="logo-ibama" alt="logo-ibama" width="80px" height="70px"> <!-- Fonte: https://www.flickr.com/photos/ibamagov/ -->
+    
+                        <img id="prevfogo-logo" src="../imagens/labareda.png" title="logo-prevfogo" alt="logo-prevfogo" width="80px" height="70px"> <!-- Fonte: https://www.flickr.com/photos/ibamagov/ -->
+    
+                        <p class="menu-sisfogo-titulo">Sisfogo</p>
+                    </div>
+            
+                    <ul>
+                        <li><a href="../index.html" style="text-decoration:none">INÍCIO</a></li>
+                        <li><a href="../paginas/sobre.html"style="text-decoration:none">SOBRE</a></li>
+                        <li><a href="../paginas/temas.html"style="text-decoration:none">TEMAS</a></li>
+                        <li><a href="../paginas/contato.html"style="text-decoration:none">CONTATO</a></li>
+                        <li><a href="../paginas/acesso_interno.html"><button>Acesso Interno</button></a></li>
+                        
+                    </ul>
+            </nav>
+        </div>
+    
+
+        <div>
+            <div id="formulario-container">
+
+                <div id="formulario">
+
+                    <div class="login-cadastro-texto">
+                        <p class="cadastro-titulo">Cadastro</p></div>
+
+                    <form method="post" action="">
+                        <p>Nome: <input type="text" name="name"/></p>
+                        <p>Sobrenome: <input type="text" name="last_name" /></p>
+                        <p>CPF: <input type="text" name="cpf" maxlength="11"/></p>
+                        <p>RG: <input type="text" name="identidade" maxlength="7"/></p>
+                        <p>Órgão Emissor: <input type="text" name="org_emissor"/></p>
+                        <p>Data da emissão: <input type="date" name="data_emissao_rg"/></p>
+                        <p>Estado Civil: <input type="text" name="estado-civil"/></p>
+                        <p>Nacionalidade: <input type="text" name="nacionalidade"/></p>
+                        <p>Naturalidade:     
+                            <select>
+                            <option></option>
+                            <option value="AC">AC</option>
+                            <option value="AM">AM</option>
+                            <option value="AL">AL</option>
+                            <option value="AP">AP</option>
+                            <option value="BA">BA</option>
+                            <option value="CE">CE</option>
+                            <option value="DF">DF</option>
+                            <option value="ES">ES</option>
+                            <option value="GO">GO</option>
+                            <option value="MA">MA</option>
+                            <option value="MG">MG</option>
+                            <option value="MS">MS</option>
+                            <option value="MT">MT</option>
+                            <option value="PA">PA</option>
+                            <option value="PB">PB</option>
+                            <option value="PE">PE</option>
+                            <option value="PI">PI</option>
+                            <option value="PR">PR</option>        
+                            <option value="RJ">RJ</option>
+                            <option value="RN">RN</option>        
+                            <option value="RO">RO</option>
+                            <option value="RR">RR</option>
+                            <option value="RS">RS</option>
+                            <option value="SE">SE</option>
+                            <option value="SC">SC</option>
+                            <option value="SP">SP</option>
+                            <option value="TO">TO</option>
+                        </select></p>                    
+                        <p>Município: <input type="text" name="municipio"/></p>
+                        <p>CEP: <input type="text" name="cep" maxlength="9"/></p>
+                        <p>Endereço: <input type="text" name="endereco"/></p>
+                        <p>Complemento: <input type="text" name="complemento-endereco"/></p>
+                        <p>Número: <input type="text" name="numero-endereco"/></p>                        
+                        <p>Data de Nascimento: <input type="date" name="data_nascimento"/></p>
+                        <p>Gênero:
+                            <input type="radio" name="genero" value="1"/> Feminimo
+                            <input type="radio" name="genero" value="2"/> Masculino
+                            <input type="radio" name="genero" value="3"/> Não-Binário
+                            <input type="radio" name="genero" value="3"/> Outro
+                        </p>
+                        <p>Profissão: <input type="text" name="profissao"/></p>
+                        <p>Escolaridade:     
+                            <select>
+                            <option></option>
+                            <option value="es_incompleto">Ensino Fundamental Incompleto</option>
+                            <option value="es_completo">Ensino Fundamental Completo</option>
+                            <option value="em_incompleto">Ensino Médio Incompleto</option>
+                            <option value="em_completo">Ensino Médio Completo</option>
+                            <option value="sup_incompleto">Superior Incompleto</option>
+                            <option value="sup_completo">Superior Completo</option>
+                            <option value="pos_incompleta">Pós-graduação incompleta</option>
+                            <option value="pos_completa">Pós-graduação Completa</option>
+                        </select></p>
+                        <p>Telefone: <input type="telefone" name="telefone" placeholder="(00)00000-0000" maxlength="14"/></p>
+                        <p>Telefone Secundário: <input type="telefone" name="telefone-secundario" placeholder="(00)00000-0000" maxlength="14"/></p>
+                        <br />
+                    </div>
+                    
+                    <div id="login">
+                        <fieldset>
+                            <legend>Login de Acesso</legend>
+                            <br />
+                            <label>Email: <input type="text" name="email"/></label>
+                            <br />
+                            <br />
+                            <label>Senha: <input type="password" name="senha" /></label>
+                            <sub>Deve conter de 6 a 8 caracteres, combinando caracteres especiais (@, #, !), letras maiúsculas e números. </sub>
+                            <br />
+                            <br />
+                            <p>
+                                <input type="checkbox" name="termos"/>
+                                Concordo em receber novidades do sistema pelo email cadastrado
+                            </p>
+                            
+                        </fieldset>
+                    </div>
+                    <br />
+                    
+                    </form>
+                    
+                    <div id="buttons">
+                    <button>Finalizar Cadastro</button>
+                    </div>
+            
+
+        </div>
+
+        
+</body>
+
+
+<!-- Todas os ícones foram obtidas em https://icons8.com.br -->
+    <footer id="rodape" class="rodape">
+        <div class="rodape-div">
+                
+            <div class="rodape-div-2">
+                <div class="rodape-div-2-coluna">
+                <b class="titulos-rodape">
+                    <img class="icones" src="../imagens/telefone-icone.png" title="icone-telefone" alt="icone-telefone" height="25px" /> <!-- Fonte: https://icons8.com.br -->
+                    CONTATOS
+                    </b></span>
+                    <p>Telefone: (61) 3316-1858 </p>
+                    <p>Endereço: SCEN Trecho 2 - Edifício Sede – L4 Norte  CEP: 70818-900 - Brasília - DF </p>
+                    <p>E-mail:  prevfogo.sede@ibama.gov.br</p>
+                    </div>
+            </div>
+                
+            <div class="rodape-div-3">
+                <div class="rodape-div-3-coluna">
+                <b class="titulos-rodape">
+                    <img class="icones" src="../imagens/menu-icone.png" title="icone-menu" alt="icone-menu" height="40px" /> <!-- Fonte: https://icons8.com.br -->
+                    MENU
+                    </b>
+                    <p><a href="../paginas/sobre.html"style="text-decoration:none">Sobre</a></p>
+                    <p><a href="../paginas/temas.html"style="text-decoration:none">Temas</a></p>
+                    <p><a href="../paginas/contato.html"style="text-decoration:none">Contato</a></p>
+                    <p><a href="../paginas/acesso_interno.html"style="text-decoration:none">Acesso Interno</a></p>
+                    </div>
+            </div>
+                
+            <div class="rodape-div-4">
+                <div class="rodape-div-4-coluna">
+                    <b class="titulos-rodape">
+                        <img class="icones" src="../imagens/parceria-icone.png" title="icone-parceria" alt="icone-parceria" height="40px" /> <!-- Fonte: https://icons8.com.br -->
+                        PARCEIROS
+                        </b></span>
+                        <p>Prevfogo</p>
+                        <p>ICMBio</p>
+                        <p>INPE</p>
+                    </div>
+                </div>
+                
+            <div class="rodape-div-4">
+                    <div class="rodape-div-4-coluna">
+                    <b class="titulos-rodape">
+                    <!-- <img class="icones" src="./imagens/redesocial-icone.png" height="30px" /> -->
+                        REDES SOCIAIS
+                        </b>
+                        <p>
+                            <a href="https://www.facebook.com/ibama.gov.br/"><img class="icones" src="../imagens/facebook-icone.png" title="icone-facebook" alt="icone-facebook" height="20px" /></a> <!-- Fonte: https://icons8.com.br -->
+                            Facebook
+                        </p>
+                        <p>
+                            <a href="https://www.instagram.com/ibamagov/"><img class="icones" src="../imagens/instagram-icone.png" title="icone-instagram" alt="icone-instagram" height="20px" /></a> <!-- Fonte: https://icons8.com.br -->
+                            Instagram
+                            </p>
+                        <p>
+                            <a href="https://www.gov.br/ibama/pt-br"><img class="icones" src="../imagens/whatsapp-icone.png" title="icone-whatsapp" alt="icone-whatsapp" height="20px" /></a> <!-- Fonte: https://icons8.com.br -->
+                            WhatsApp
+                            </p>
+                        <p>
+                            <a href="https://twitter.com/ibamagov"><img class="icones" src="../imagens/twitter-icone.png" title="icone-twitter" alt="icone-twitter" height="20px" /></a> <!-- Fonte: https://icons8.com.br -->
+                            Twitter
+                        </p>
+                
+                
+                     </div>
+            </div>
+                
+             
+                
+    </div> 
+     <p class="rodape-direitos">
+            Copyrigth &copy; - Direitos reservados.
+    </p>
+    
+</footer> 
+</html>
+
+
